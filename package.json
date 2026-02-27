@@ -1,0 +1,17 @@
+{
+  "name": "zerodha-connect-test",
+  "version": "1.0.0",
+  "description": "CLI tool to test Zerodha KiteConnect OAuth login flow",
+  "type": "module",
+  "bin": {
+    "zerodha": "./src/cli.js"
+  },
+  "scripts": {
+    "login": "node src/cli.js login"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0"
+  }
+}
